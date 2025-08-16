@@ -6,7 +6,7 @@ COPY ./requirements.txt ./requirements.txt
 COPY ./src ./src
 COPY ./model ./model
 
-ENV PYTHONPATH /flask-app/src
+ENV PYTHONPATH=/flask-app/src
 
 RUN pip install -r requirements.txt
 
